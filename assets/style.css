@@ -1,0 +1,90 @@
+.mod_review__assign-reviewers ._name-list {
+    min-height: 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+.mod_review__assign-reviewers ._name-row  {
+    min-height: 37px;
+    border: 1px solid #c5c5c5;
+    margin: 5px 0;
+}
+
+.mod_review__assign-reviewers ._name {
+    width: 100%;
+}
+
+.mod_review__assign-reviewers ._name .fullname {
+    padding: 5px;
+}
+
+.mod_review__assign-reviewers ._name img+.fullname {
+    padding: 5px 5px 5px 40px;
+}
+
+.mod_review__assign-reviewers ._highlighted {
+    background-color: #b9ffb8;
+}
+
+.mod_review__assign-reviewers .draggable {
+    position: relative;
+}
+
+.mod_review__assign-reviewers .draggable:not(.ui-draggable-disabled) {
+    cursor: pointer;
+}
+
+.mod_review__assign-reviewers ._highlighted:hover ._cross._active {
+    visibility: visible;
+}
+
+.mod_review__assign-reviewers ._cross {
+    position: absolute;
+    padding: 8px 8px 8px 8px;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.mod_review__assign-reviewers .custom-select:focus {
+    outline: 2px solid #007bff;
+    box-shadow: none;
+}
+
+.mod_review__assign-reviewers ._cross svg {
+    width: 20px;
+    height: 20px;
+}
+
+.mod_review__assign-reviewers ._controlers {
+    border-radius: 0;
+    margin: 14px 0 0 0;
+}
+
+.mod_review__assign-reviewers ._controlers .checkbox-row {
+    margin-bottom: 14px;
+}
+
+.mod_review__assign-reviewers ._controlers .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: none;
+}
+
+.mod_review__assign-reviewers ._controlers .checkbox-label::before {
+    border-radius: 0;
+}
+
+.mod_review__assign-reviewers ._controlers button {
+    border-radius: 0;
+    margin: 0 4px 0 4px;
+}
+
+.mod_review__assign-reviewers ._controlers button.btn-default {
+    background-color: #ced4da;
+}
+
+.mod_review__assign-reviewers ._controlers button.btn-default:hover {
+    background-color: #b8c1ca;
+}

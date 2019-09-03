@@ -1,0 +1,8 @@
+{
+    "moodle-mod_review-history": {
+        "requires": [
+            "node",
+            "transition"
+        ]
+    }
+}

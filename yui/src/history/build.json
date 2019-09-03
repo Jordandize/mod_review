@@ -1,0 +1,10 @@
+{
+    "name": "moodle-mod_review-history",
+    "builds": {
+        "moodle-mod_review-history": {
+            "jsfiles": [
+                "history.js"
+            ]
+        }
+    }
+}
